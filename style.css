@@ -70,3 +70,20 @@ h1 {
                     background-repeat: no-repeat;
                     background-position: left;
 }
+
+#border2 {
+                    border-image: linear-gradient(blue, cyan);
+                    border-image-slice: 1;
+                    border-left: 7px solid;
+}
+
+#border1 {
+                    border-image: linear-gradient(black, red);
+                    border-image-slice: 1;
+                    border-left: 7px solid;
+}
+
+footer {
+                    text-align: center;
+
+}
