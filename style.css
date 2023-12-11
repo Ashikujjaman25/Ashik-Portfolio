@@ -17,13 +17,15 @@ h1 {
 
 }
 
-section {
+.flex-container {
                     display: flex;
-
+                    padding-left: 5%;
+                    margin-bottom: 100px;
 }
 
 .third {
                     width: 50%;
+                    padding-left: 2%;
 }
 
 .third img {
@@ -41,15 +43,30 @@ section {
 }
 
 .top-banner {
+
                     background-image: url(images/top-banner.png);
                     background-repeat: no-repeat;
-                    padding-left: 5%;
 }
 
 .middle-banner {
-                    margin-top: 150px;
-                    padding-left: 2%;
+
                     background-image: url(images/dream-bg.png);
                     background-repeat: no-repeat;
                     background-position: right;
+}
+
+.Developer {
+                    width: 50%;
+                    margin-left: 5%;
+                    margin-right: 5%;
+                    padding: 2%;
+                    box-shadow: 10px 10px 40px aqua;
+                    background-color: antiquewhite;
+                    border-radius: 20px;
+}
+
+.xp {
+                    background-image: url(images/exp-bg.png);
+                    background-repeat: no-repeat;
+                    background-position: left;
 }
